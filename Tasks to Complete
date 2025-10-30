@@ -1,0 +1,26 @@
+## my project task breakdown (for github project board)
+
+### data setup
+- [x] download and unzip all dhs zip files  
+- [x] rename files and make country-year folders  
+- [x] check variable dictionary to understand code names  
+
+### cleaning + standardization
+- [x] rename variable names to readable ones  
+- [x] fix year and scale units correctly (children vs mother)  
+- [x] export parquet + csv copies for review  
+
+### stacking + filtering
+- [ ] combine all years per country  
+- [ ] keep data only from 2010–2024  
+- [ ] create one big dataframe for each country  
+
+### climate merge prep
+- [ ] load cru climate data  
+- [ ] match dhs clusters with temperature + rainfall  
+- [ ] save merged dataset for analysis  
+
+### analysis + visualization
+- [ ] compute malnutrition indicators  
+- [ ] make simple plots (trends per country + year)  
+- [ ] start exploring relationships with climate variables  
